@@ -340,7 +340,7 @@ hr {
   height: 118px;
 }
 
-.aboutus__team {
+.aboutus__content {
   flex-wrap: wrap;
   justify-content: center;
   display: flex;
@@ -587,6 +587,97 @@ hr {
 
 .accordion__item.active .accordion__header {
   border-bottom: 1px solid #c6cbcd;
+}
+
+.review {
+  height: 254px;
+  background-color: #f8f8f8;
+}
+
+.review__header {
+  padding: 0 78px;
+}
+
+.review__item {
+  padding-left: 205px;
+  position: relative;
+}
+
+.review__photo {
+  z-index: 1;
+  margin-top: 42px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.review__text {
+  color: #a9afb1;
+  padding-top: 42px;
+  font-family: Raleway500it;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.review__author {
+  margin-top: 21px;
+  font-family: Kaushan400;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.review__author:before {
+  content: "";
+  vertical-align: middle;
+  width: 70px;
+  height: 4px;
+  background-color: #f38281;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.team {
+  justify-content: center;
+  display: flex;
+}
+
+.team__header {
+  text-align: center;
+}
+
+.team__template {
+  color: #2d3033;
+  height: 80px;
+  margin-top: 42px;
+  font-family: Kaushan400;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.team__title {
+  color: #2d3033;
+  text-transform: uppercase;
+  height: 80px;
+  margin-bottom: 24px;
+  font-family: Raleway900;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team__subtitle {
+  height: 118px;
+}
+
+.team__content {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.team__img {
+  height: 338px;
+  width: 370px;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
