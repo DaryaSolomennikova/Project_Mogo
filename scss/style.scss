@@ -601,7 +601,32 @@ text-align: center;
 }
 
 .team__img{
-    height: 338px;
+    height: 424px;
     width: 370px;
     margin: 0 10px;
 }
+
+.team__name{
+    text-transform: uppercase;
+    margin: auto;
+    width: 269px;
+
+    h4{font-family: Raleway700;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 30px 0;
+    }
+}
+
+// partners
+
+// .partners{
+//     background-color: #F8F8F8;
+//     height: 211px;
+// }
+
+// .partner__content{
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: column;
+// }

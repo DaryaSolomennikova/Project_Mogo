@@ -675,9 +675,22 @@ hr {
 }
 
 .team__img {
-  height: 338px;
+  height: 424px;
   width: 370px;
   margin: 0 10px;
+}
+
+.team__name {
+  text-transform: uppercase;
+  width: 269px;
+  margin: auto;
+}
+
+.team__name h4 {
+  padding: 30px 0;
+  font-family: Raleway700;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
