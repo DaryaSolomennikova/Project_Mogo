@@ -620,13 +620,16 @@ text-align: center;
 
 // partners
 
-// .partners{
-//     background-color: #F8F8F8;
-//     height: 211px;
-// }
+.partners{
+    background-color: #F8F8F8;
+    height: 211px;
+}
 
-// .partner__content{
-//     display: flex;
-//     justify-content: space-between;
-//     flex-direction: column;
-// }
+.partners__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners__item{
+    margin-top: 73px;
+}

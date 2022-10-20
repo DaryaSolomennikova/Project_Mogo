@@ -693,4 +693,18 @@ hr {
   line-height: 28px;
 }
 
+.partners {
+  height: 211px;
+  background-color: #f8f8f8;
+}
+
+.partners__content {
+  justify-content: space-between;
+  display: flex;
+}
+
+.partners__item {
+  margin-top: 73px;
+}
+
 /*# sourceMappingURL=index.8368275b.css.map */
